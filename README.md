@@ -8,7 +8,7 @@ To use this RSA program, first fill in the values for the `rsa_n`, `rsa_e`, and 
 keys in the `bignum.cpp` file. Ensure the numbers are written within the double quotes (they must be strings). Then, run the required C++ compilation and execution
 commands. 
 
-Compilation: `g++ -std=c++20 -Wall -pg bignum.cpp main.cpp -o bignum`
+Compilation: `g++ -std=c++20 -Wall -O3 bignum.cpp main.cpp -o bignum`
 
 Execution: The executable is stored in a file called `bignum`. The encrypt command is 
 `e` and decrypt command is `d`. The input can be passed in either from the command line
